@@ -1,7 +1,4 @@
 function wrap(string, numColumns) {
-  if (string.length === 0) {
-    return string;
-  }
   if (string.length <= numColumns) {
     return string;
   } else {
@@ -19,3 +16,4 @@ function wrap(string, numColumns) {
 // console.log(wrap("Hello, we are Jen and Kimberley!", 10));
 
 module.exports = wrap;
+
